@@ -1,8 +1,8 @@
-# Product Theme Studio 🎨
+# Product Theme Studio 
 
 A visual theme editor I built to customize product UI components in real-time. Think of it as a playground for tweaking buttons, colors, typography, and layouts without touching code.
 
-# Product Theme Studio 🎨
+# Product Theme Studio 
 
 [![Deploy](https://github.com/kanish818/Product-Theme-Studio/actions/workflows/deploy.yml/badge.svg)](https://github.com/kanish818/Product-Theme-Studio/actions/workflows/deploy.yml)
 
