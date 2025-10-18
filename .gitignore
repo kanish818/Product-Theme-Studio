@@ -1,7 +1,9 @@
 # Dependencies
 node_modules/
-package-lock.json
-yarn.lock
+# Commit lockfile for reproducible CI builds
+# (uncomment the lines below only if you intentionally want to ignore lockfiles)
+# package-lock.json
+# yarn.lock
 
 # Build output
 dist/

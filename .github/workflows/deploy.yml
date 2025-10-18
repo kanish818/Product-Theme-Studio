@@ -24,9 +24,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+      - name: Show Node & npm versions
+        run: |
+          node -v
+          npm -v
       - name: Install deps
-        run: npm ci
+        run: npm install
       - name: Build
         run: npm run build
       - name: Upload artifact
@@ -41,6 +44,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
