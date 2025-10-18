@@ -157,4 +157,3 @@ MIT
 
 ---
 
-Built with ☕ and late‑night coding sessions.
