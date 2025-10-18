@@ -1,0 +1,154 @@
+﻿Dynamic UI Editor for Customizable 
+Designs 
+
+ 
+
+Project Overview 
+You are tasked with building a dynamic UI editor in React that allows users to customize a 
+given UI Design (provided via Figma) according to specific constraints, and optionally 
+extend it with additional customizations. 
+
+In real-world applications, UI designs are rarely static — clients or designers often request 
+tweaks to layouts, positions, shapes, sizes, scroll behaviors, colors, and visibility of 
+elements. Your goal is to build an editor interface that makes these changes possible 
+without editing code, providing a live preview of the UI designs as modifications are 
+applied. 
+
+Real-Life Context:​
+ In applications like dashboards, admin panels, or SaaS platforms, clients and designers 
+often request on-the-fly tweaks to UI designs. This assignment simulates that scenario: you 
+are building an editor that empowers users to control the UI dynamically, ensuring it 
+works across multiple configurations, layouts, and designs, starting from the given 
+Figma UI design. 
+
+This project tests advanced frontend skills, including dynamic rendering, state 
+management, component architecture, and responsive design, while simulating 
+real-world client and design requirements. 
+
+ 
+
+Figma Design Link for UI Design 
+Figma link 
+
+Note: The provided Figma design is for the UI Design only. The editor interface must be 
+created by you. Candidates are expected to build an editor that allows full dynamic 
+customization of the Design. 
+
+ 
+ 
+ 
+ 
+
+
+
+Task Details 
+Given UI Design 
+
+●​ You will be provided with Figma designs of a single UI Design. 
+●​ The design may include components, sub-components, items, labels, icons, or other 
+
+elements. 
+●​ Candidates must implement the UI design based on the Figma design and build an 
+
+editor interface to dynamically customize it.​
+ 
+
+UI Editor Requirements 
+
+The editor should allow dynamic customization of the UI design according to the following 
+constraints and optionally more: 
+
+Typography 
+
+●​ Font Family (select from a list, e.g., Roboto, Inter, Poppins). 
+●​ Font Weight (e.g., 400, 500, 600, 700). 
+●​ Font Size (px/rem values, with min 10px and max 60px) 
+
+Button 
+
+●​ Border Radius. 
+●​ Shadow (none, small, medium, large). 
+●​ Alignment (left, center, right). 
+●​ Background Color (HEX/RGB input). 
+●​ Text Color (HEX/RGB input). 
+
+Galleries/Images 
+
+●​ Gallery Alignment (grid left, grid center, grid right) 
+●​ Spacing between images. 
+●​ Image border radius. 
+
+General Layout 
+
+●​ Card Corner Radius (menu). 
+●​ Container Padding. 
+●​ Section Background Color. 
+
+     Stroke/Border 
+
+●​ Stroke Color. 
+●​ Stroke Weight.​
+
+ 
+
+
+
+     Layout Switching 
+
+●​ Ability to switch between two different design layouts​
+ 
+
+     Live Preview 
+
+●​ All changes made in the editor should update the UI component in real-time​
+ 
+
+Output 
+
+●​ Optional: Ability to export the UI configuration as JSON for future reuse 
+
+ 
+
+Deliverables 
+●​ Fully functional React UI design implementing all core features based on the Figma 
+
+design 
+●​ Editor interface for dynamic customization of the component based on constraints 
+
+or more 
+●​ Demo page showcasing the UI component and editor in action 
+●​ Deployed link to the working solution 
+●​ GitHub repository with structured commits 
+●​ README.md explaining: 
+
+○​ Component API and configurable props 
+○​ How the editor works 
+○​ Decisions on additional customizations and UX improvements 
+
+ 
+
+Evaluation Criteria 
+●​ Functionality: UI component and editor meet the constraints and allow optional 
+
+customizations 
+●​ Flexibility: Component can adapt to multiple configurations without code changes 
+●​ Code Quality: Clean, modular, maintainable React code 
+●​ UI/UX: Smooth interactions, intuitive editor interface, responsive design 
+●​ Creativity: Thoughtful implementation of optional/custom features beyond the 
+
+constraints 
+
+ 
+
+ 
+
+
+
+Notes to Candidate 
+●​ Use the Figma design as reference for the UI design only. 
+●​ You are responsible for creating the editor interface to make the UI components 
+
+configurable. 
+●​ Focus on frontend architecture, state management, and responsiveness — no 
+
+backend is required.
