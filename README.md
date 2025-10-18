@@ -4,8 +4,6 @@ A visual theme editor I built to customize product UI components in real-time. T
 
 # Product Theme Studio 
 
-[![Deploy](https://github.com/kanish818/Product-Theme-Studio/actions/workflows/deploy.yml/badge.svg)](https://github.com/kanish818/Product-Theme-Studio/actions/workflows/deploy.yml)
-
 A visual theme editor to customize a product card UI in real-time. The left panel edits the theme; the right panel shows an instant preview.
 
 Live Demo:
